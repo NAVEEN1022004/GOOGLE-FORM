@@ -9,6 +9,27 @@
 <meta name="author" content="mlp design">
 <meta name="robots" content="index, follow">
 <link rel="stylesheet" href="style.css">
+<script>
+
+
+	function butt(){
+			document.getElementById("next").style.backgroundColor="green"
+	   } 
+	   
+	function bnt(){
+		document.getElementById("next").style.backgroundColor="white"
+	   
+	}
+	
+	
+	function chec(){
+		document.getElementById("next").style.backgroundColor="green"
+		
+	}
+	
+	
+	
+	</script>
 
 </head>
 <body>
@@ -26,10 +47,10 @@
 <label for="show-menu" class="responsive">&#9776;</label>
 <input type="checkbox" id="show-menu" role="button">
 <ul id="topnav">
-<li><a class="active">Home</a></li>
+<li><a href="index.html">Home</a></li>
 <li><a href="index1.html">form1</a></li>
 <li><a href="index2.html">form2</a></li>
-<li><a href="#">Page 4</a></li>
+<li><a href="index3.html">Page 4</a></li>
 <li><a href="#">Page 5</a></li>
 </ul>
 <!-- end menu -->
@@ -96,6 +117,9 @@
 				<p>The MEA planned to eliminate printing the last page of the passport. The person’s residential information was not to be printed but would stay in the government database. Passports have a barcode, which can be scanned by immigration officials. This decision was taken in order to prevent revealing more information than required.  Existing passports were to stay the same till their expiry date. Nulla sed justo. Integer nec sem vel tellus tempor gravida. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc faucibus. Nullam nulla ipsum, accumsan sed, tempus sed, adipiscing a, metus. Curabitur varius commodo eros.</p>
 				<span>17 March 2017 @ 6:24 PM | <a href="#">0 Comment(s)</a> | Posted by <a href="#">webmasterneo</a></span>
 			</div>
+			<div class="c0222">  
+                <button onclick="butt()" onmouseout="bnt()" onmouseover="chec()" id="next">next</button>
+            </div>
 			<!--end of another post item-->			
 		</div>
 		<!--end of content-->
@@ -127,4 +151,3 @@
 </body>
 
 </html>
-
